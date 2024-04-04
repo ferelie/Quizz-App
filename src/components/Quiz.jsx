@@ -41,7 +41,7 @@ const Quiz = () => {
                             </button>
                         </li>
                     ))}
-                    {/* <div>{correctAnswers[currentQuestion]}</div> */}
+                    <div>{correctAnswers[currentQuestion]}</div>
                 </ul>
             </div>
         </div>
