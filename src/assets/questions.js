@@ -102,4 +102,10 @@ export default [
         text: "Which country is famous for the ancient pyramids?",
         answers: ["Egypt", "Greece", "Mexico", "China"],
     },
+    {
+        id: "q6",
+        text: "Bonus question: What is baby Loumi's birthday",
+        answers: ["April 12", "May 01", "December 15", "October 28"],
+    },
+
 ];
