@@ -1,6 +1,7 @@
 import QUESTIONS from "../assets/questions";
 import { useState } from "react";
 import quizComplete from "../assets/quiz-complete.png";
+import kissImg from "../assets/kiss.png";
 
 const correctAnswers = QUESTIONS.map((question) => question.answers[0]);
 
@@ -16,9 +17,10 @@ const Quiz = () => {
     if (playerAnswers.length === QUESTIONS.length) {
         return (
             <div id="summary">
-                <img src={quizComplete} alt="trophy picture" />
+                <img src={kissImg} alt="trophy picture" />
+                <h2>Bravo Loumi here's a kiss from me, Now back to studying!</h2>
+                <h4>PS: I Love you hehe</h4>
                 
-                <h2>Thank you for playing!</h2>
             </div>
         );
     }
@@ -41,7 +43,7 @@ const Quiz = () => {
                             </button>
                         </li>
                     ))}
-                    <div>{correctAnswers[currentQuestion]}</div>
+                    {/* <div>{correctAnswers[currentQuestion]}</div> */}
                 </ul>
             </div>
         </div>
