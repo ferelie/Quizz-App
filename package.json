@@ -1,4 +1,5 @@
 {
+    "homepage": "https://ferelie.github.io/Quizz-App/",
     "name": "effects-adv-prj",
     "private": true,
     "version": "0.0.0",
@@ -15,7 +16,6 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
-    "homepage": "https://ferelie.github.io/Quizz-App",
     "devDependencies": {
         "@types/react": "^18.2.15",
         "@types/react-dom": "^18.2.7",
